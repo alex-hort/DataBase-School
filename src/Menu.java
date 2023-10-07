@@ -76,7 +76,7 @@ public class Menu extends JFrame {
         menuPanel.setLayout(new FlowLayout());
         menuPanel.setBackground(Color.YELLOW);
 
-        Font timesNewRomanFont = new Font("Times New Roman", Font.PLAIN, 16); // Cambia el tamaño de fuente si es necesario
+        Font timesNewRomanFont = new Font("Times New Roman", Font.PLAIN, 35); // Cambia el tamaño de fuente si es necesario
 
         JButton botonEstudiantes = new JButton("Estudiantes");
         botonEstudiantes.setFont(timesNewRomanFont); // Aplicar el tipo de letra a este botón
